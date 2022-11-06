@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header{
+    height: 70px;
+    padding: 0 20px;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgba(17,17,17,1);
+}
+
+/* .header img{
+    align-items: center;
+
+} */
+
