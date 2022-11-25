@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#header{
+    background: #FFF300;
+}
+.nav-item a{
+    font-size: 20px;
+    color: #f7038e;
+    padding: 23px 20px;
+    font-weight: 600;
+}
+.nav-link{
+    display: block;
+    margin: 0 10px;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    border-right: 4px solid #f7038e;
+    border-left: 4px solid #f7038e ;
+    color: #F5008D;
+    transition: all linear .2s;
+}
+.navbar-nav .nav-item .nav-link{
+    border-right: 4px solid #FFF300;
+    border-left: 4px solid #FFF300 ;
+    color: #F5008D;
+    transition: all linear .2s;
+}
+
+.language_menu li a{
+    font-size: 20px;
+    color: #f7038e;
+    padding: 23px 20px;
+    font-weight: 600;
+}
+/* nav end */
+
+/* slider */
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+ }
+ /* slider */
+
+ /* main content */
+ .common-content h1{
+    color: #f7038e;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 80px 0 40px 0;
+ }
+ .common-content p{
+    color: #f7038e;
+    color: #636466;
+    font-size: 20px;
+    width: 884px;
+    margin: 0 auto;
+    margin-bottom: 46px;
+ }
+ /* main content */
+
+/* cart part */
+
+.card{
+    border: none;
+    cursor: pointer;
+    border: 4px solid #f7038e;
+    border-radius: 36px;
+    height: 336px;
+    margin: 0 auto 34px;
+    max-width: 80%;
+    width: 18rem;
+}
+.card-body h2{
+    color: #6E34FA;
+    margin-bottom: 9px;
+    font-size: 30px;
+}
+.card-body img{
+    margin-bottom: 20px; height:148px
+}
+.card-body p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #F5008D;
+}
+#main-content{
+    background: url('../images/content_bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    top: 200px;
+    right: 0;
+}
+
+.s-main{
+    background: url('../images/content_bg2.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    top: 200px;
+    right: 0;
+}
+/* cart part */
+
+/* footer */
+
+#footer{
+    background: #6E35FF;
+    height: 200px;
+}
+.menu-list a{
+    padding: 5px 23px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.menu-list{
+    margin-top: 20px;
+}
+.footer-right{
+    float: right;
+    padding: 20px 10px;
+}
+.footer-right img{
+    border-radius:8px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.social{
+    float: right;
+}
+.social{
+    float: right;
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+.social img{
+    margin-right: 12px;
+    width: 40px;
+    height: 40px;
+    padding: 9px 9px;
+    display: inline-block;
+    background: white;
+    border-radius: 50%;
+    color: #6E35FF;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.social img:hover{
+    margin-right: 12px;
+    width: 40px;
+    height: 40px;
+    padding: 9px 9px;
+    display: inline-block;
+    background: yellow;
+    border-radius: 50%;
+    color: #6E35FF;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.copy p{
+    color: white;
+    margin-top: 30px;
+}
+.copy, .f-logo{
+    margin-top: 20px;
+}
+.explore{
+    margin-bottom: 40px;
+}
+
+/* footer */
+
+/* skitto-pages */
+#dour_banner{
+    background: url('../images/game-home-big.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    margin-bottom: 180px;
+}
+.dour-inner{
+    position: absolute;
+    top: 400px;
+    background-color: #6E35FF;
+    width: 70%;
+    height: 40%;
+    border-radius: 20px;
+    left: 15%;
+    right: 15%;
+}
+.dour-inner h1{
+    font-size: 40px;
+    color: #FFF300;
+    margin-bottom: 10px;
+}
+.dour-inner h2{
+    font-size: 26px ;
+    color: #FFFFFF ;
+    margin-bottom: 40px;
+}
+.dour-inner a{
+    font-size: 18px;
+    background-color: #FFF300;
+    color: #f7038e;
+    padding: 5px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+/* skitto-pages */
+
+/* leaderboard start */
+.leader-heading{
+    color: #f7038e;
+    text-align: center !important;
+    font-size: 30px;
+}
+.leader-main{
+    width: 40%;
+    margin: 0 auto;
+}
+.table-bordered th,tr,td{
+    text-align: center;
+}
+/* leaderboard end */
